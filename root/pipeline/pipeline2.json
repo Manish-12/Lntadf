@@ -16,10 +16,11 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "DelimitedTextSource",
+						"type": "ExcelSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true
+
 						},
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings"
@@ -41,7 +42,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "BlobSourceDataset",
+						"referenceName": "ExcelSourceDataset",
 						"type": "DatasetReference"
 					}
 				],
