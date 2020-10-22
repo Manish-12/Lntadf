@@ -20,7 +20,6 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true
-
 						},
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings"
@@ -42,7 +41,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ExcelSourceDataset",
+						"referenceName": "excelsourcedataset",
 						"type": "DatasetReference"
 					}
 				],
